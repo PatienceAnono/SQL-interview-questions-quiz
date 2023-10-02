@@ -12,7 +12,10 @@ What are the 4 main datatypes in SQLite3? Can we use other common types from oth
 
 Type your answer below this line:
 _______________________________________________________________________________________________________________________________
-
+I.INTEGER  
+2.TEXT  
+3.DATE  
+4.REAL
 
 
 
@@ -23,7 +26,7 @@ Explain the relationship between **Primary Keys** and **Foreign Keys**.
 
 Type your answer below this line:
 _______________________________________________________________________________________________________________________________
-
+Primary Key uniquely identifies each row in a table while Foreign Key is a set of columns referring to a primary key of each table.
 
 
 
@@ -34,7 +37,9 @@ Explain the different types of relationships entities can have in a SQL database
 
 Type your answer below this line:
 _______________________________________________________________________________________________________________________________
-
+- One to One Relationship
+- One to Many Relationship
+- Many to Many Relationship
 
 ## Question 4
 
@@ -42,7 +47,10 @@ Explain the various types of JOINs possible with SQL.
 
 Type your answer below this line:
 _______________________________________________________________________________________________________________________________
-
+- INNER JOIN
+- OUTER JOIN -Left Outer Join
+             -Right Outer Join
+             -Full Outer Join
 
 
 ## Question 5
@@ -51,7 +59,7 @@ Explain the relationship between Aggregate functions and GROUP BY statements.
 
 Type your answer below this line:
 _______________________________________________________________________________________________________________________________
-
+Aggregate functions are mathematical operations performed on a set of values within a group of rows to return a single value that summarizes the data while The GROUP BY statement is used to group rows with the same values in one or more columns into summary rows
 
 
 ## Question 6
@@ -61,7 +69,7 @@ What role do Associative Entities play (JOIN Tables) in many-to-many JOINs?
 
 Type your answer below this line:
 _______________________________________________________________________________________________________________________________
-
+They provide a structured way to connect related entities and facilitate the retrieval of data in a meaningful and efficient manner while maintaining data integrity.
 
 
 ## Summary
